@@ -1,0 +1,91 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Poppins' , sans-serif;
+}
+
+.general{
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.generalContent{
+    border:6px solid #0B99A7;
+    display: flex;
+    justify-content:space-between;
+    width:90%;
+    border-radius:10px;
+    /* height:250px;
+    padding: 25px 50px; */
+}
+
+.generalImage1{
+    width:20%;
+    height:230px;
+}
+
+.generalImage2{
+    width:20%;
+    height:230px;
+}
+
+.generalImage3{
+    width:20%;
+    height:230px;
+}
+
+.generalImage4{
+    width:20%;
+    height:230px;
+}
+
+.generalImage5{
+    width:20%;
+    height:230px;
+}
+
+.OPDs{
+    margin-top:80px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.OPDsContent{
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    border-radius:10px;
+    /* height:250px;
+    padding: 25px 50px; */
+}
+
+
+
+.hospitalsContent{
+    margin-bottom:30px;
+}
+
+.beds{
+    display:flex;
+    flex-direction:row;
+    gap:100px;
+}
+
+.hospitalsContent{
+    color:#B6E9C1;
+    background-color:#003659;
+    border:6px solid #0B99A7;
+    border-radius: 25px;
+    padding: 20px 30px;
+}
+
+.hospitalsContent:hover{
+    scale:1.02;
+    background-color:#B6E9C1;
+    color:#003659;
+}
